@@ -1,0 +1,31 @@
+body{
+    background-color: #a1c5cf;
+}
+
+html, body, *{
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+div{
+    width: 30rem;
+    height: 55rem;
+    background-color: #9693c9;
+    margin: 2.5rem 5rem;
+    /* margin is space between elements */
+    padding: 5rem;
+}
+.card {
+    background-color: aqua;
+}
+.card-title{
+    text-align: center;
+    color: #1a1111;
+}
+#test{
+    background-color: rgb(35, 57, 155);
+}
