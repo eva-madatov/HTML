@@ -1,17 +1,28 @@
 body{
-    background-color: #a1c5cf;
+    background-color: hsl(194, 17%, 75%);
 }
 
 html, body, *{
-    font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-family:cursive;
     text-align: center;
+    color: rgb(40, 41, 44);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: aliceblue;
+    background-color: hsl(206, 42%, 82%);
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 38px;
+}
+p{
+    font-size: 30px;
+    text-align: left;
 }
 div{
     width: 30rem;
@@ -30,4 +41,9 @@ div{
 }
 #test{
     background-color: rgb(35, 57, 155);
+}
+.button{
+    font-size: 12px;
+    font: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
