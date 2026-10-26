@@ -3,7 +3,9 @@ body{
 }
 
 html, body, *{
-    font-size: 10px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
