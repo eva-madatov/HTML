@@ -3,7 +3,7 @@ body{
 }
 
 html, body, *{
-    font-size: 30px;
+    font-size: 10px;
     font-family:cursive;
     text-align: center;
     color: rgb(40, 41, 44);
@@ -25,25 +25,48 @@ p{
     text-align: left;
 }
 div{
-    width: 30rem;
-    height: 55rem;
     background-color: #9693c9;
     margin: 2.5rem 5rem;
     /* margin is space between elements */
     padding: 5rem;
 }
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background-color: aqua;
+    width: 30rem;
+    height: 55rem;
+    border-radius: 0.8rem;
 }
 .card-title{
     text-align: center;
     color: #1a1111;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0;
+}
+.card-img{
+    width: 100%;
+    height: 35%;
+    object-fit: cover;
 }
 #test{
     background-color: rgb(35, 57, 155);
 }
-.button{
-    font-size: 12px;
-    font: 100;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+.card-btn{
+    height: 4rem;
+    padding: 01.6rem;
+    background-color: rgb(12, 12, 155);
+    border: 1px solid #9dcfd8;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: white;
+    border: 0.4rem;
+    transition: all 0.3s;
+}
+.card-btn:hover{
+    background-color: #a7c2db;
 }
