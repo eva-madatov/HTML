@@ -12,7 +12,7 @@ body{
     background-attachment: fixed;
 }
 .hero content {
-    width: 85rem;
+    width: 70rem;
     padding: 2rem;
 }
 
@@ -86,8 +86,8 @@ ol{
     flex-direction: column;
     justify-content: center;
     background-color: #3d4483;
-    width: 70rem;
     border-radius: 5rem;
+    width: 60rem;
     margin: 0rem auto;
     margin-top: 5rem;
 }
@@ -128,7 +128,7 @@ ol{
 }
 
 a{
-    font-size:5rem;
+    font-size:3rem;
     margin: 0rem auto;
 }
 
@@ -137,4 +137,10 @@ img{
     height: 35rem;
     padding: 0rem;
     margin: 0rem auto;
+}
+
+.hobby-card{
+    max-width: 50rem;
+    padding: 2rem;
+    margin: 2rem auto;
 }
